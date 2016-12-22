@@ -1,0 +1,32 @@
+﻿<Messages>
+  <MessageGroup name="Values">
+    <MessageString name="EnterpriseID">EnterpriseID</MessageString>
+    <MessageString name="Message">Message</MessageString>
+    <MessageString name="URLList">1|CMS_IDC|http://localhost:28853/CMSBotWebService-service/CMSBotWebService/GetResume|a~2|CMS_PDC|http://localhost:28853/CMSBotWebService-service/CMSBotWebService/GetResume|a~3|DSM_IDC||Navigating to DSM IDC Web Service~4|DSM_PDC||Navigating to DSM PDC Web Service~</MessageString>
+  </MessageGroup>
+  <MessageGroup name="Validations">
+    <MessageString name="RRDWrongFormat">The RRD number you entered is in wrong format, RRD number should be R## or r##</MessageString>
+    <MessageString name="RRDClosed">The RRD ~rrdno~ that you have entered is already marked as Closed in the system, kindly enter an active demand to view the matching supply</MessageString>
+    <MessageString name="RRDDeleted">The RRD ~rrdno~ that you have entered is already marked as deleted in the system, kindly enter an active demand to view the matching supply</MessageString>
+    <MessageString name="RRDDormant">The RRD ~rrdno~ that you have entered is currently in dormant state in the system, kindly enter an active demand to view the matching supply</MessageString>
+    <MessageString name="RRDUnApproved">The RRD ~rrdno~ that you have entered is in unapproved state, kindly enter an approved demand to view the matching supply</MessageString>
+    <MessageString name="RRDSentApp">The RRD ~rrdno~ that you have entered is in sent for approval state, kindly enter an approved demand to view the matching supply</MessageString>
+    <MessageString name="RRDRejected">The RRD ~rrdno~ that you have entered is in rejected state, kindly enter an approved demand to view the matching supply</MessageString>
+    <MessageString name="RRDNotFound">Request you to validate the RRD number that you have entered as the number seems to be incorrect</MessageString>
+    <MessageString name="USERNotValid">You are not authorised to view the resume for the entered RRD</MessageString>
+    <MessageString name="TAGNoResume">There are no resume tagged to the entered RRD</MessageString>
+    <MessageString name="EmailSent">The resumes has been sent to your mailbox</MessageString>
+    <MessageString name="HelpText">
+      You can input the below mentioned parameters in the AbacusBot chat window to receive the information directly to your mail box.\r\n
+      1 - To receive candidate resumes from the CMS IDC application enter 1 #RRD Number; E.g. 1 R123456 \r\n
+      2 - To receive candidate resumes from the CMS PDC application enter 2 #RRD Number; E.g. 2 R123456 \r\n
+      3 - To receive matching supply list for an IDC Demand enter 3 #RRD Number; E.g. 3 R123456 \r\n
+      4 - To receive matching supply list for a PDC Demand enter 4 #RRD Number; E.g. 4 R123456 \r\n
+    </MessageString>
+    <MessageString name="InvalidText">The provided input seems to be incorrect. Kindly re-validate your input format with the ones mentioned below and try again \r\n\r\n</MessageString>
+    <MessageString name="Timeout">Request timeout is expired</MessageString>
+  </MessageGroup>
+</Messages>
+
+
+

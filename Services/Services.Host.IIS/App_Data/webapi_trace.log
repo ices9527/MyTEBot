@@ -1,0 +1,1408 @@
+2016-12-21 02:55:53.391 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Request", "Level": "Info", "Message": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Operation": "", "Operator": "", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", }
+2016-12-21 02:55:53.431 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "Route='enterpriseID:xinglong.liang,message:2,controller:MyTEBotMashery,action:GetResponse'", "Operation": "SelectController", "Operator": "DefaultHttpControllerSelector", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Route='enterpriseID:xinglong.liang,message:2,controller:MyTEBotMashery,action:GetResponse'", }
+2016-12-21 02:55:53.516 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "MyTEBotMashery", "Operation": "SelectController", "Operator": "DefaultHttpControllerSelector", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "MyTEBotMashery", }
+2016-12-21 02:55:53.518 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "CreateController", "Operator": "HttpControllerDescriptor", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:55:53.519 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "Create", "Operator": "DefaultHttpControllerActivator", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:55:53.524 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "MyTEBot.Service.MyTEBotMasheryController", "Operation": "Create", "Operator": "DefaultHttpControllerActivator", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "MyTEBot.Service.MyTEBotMasheryController", }
+2016-12-21 02:55:53.524 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "MyTEBot.Service.MyTEBotMasheryController", "Operation": "CreateController", "Operator": "HttpControllerDescriptor", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "MyTEBot.Service.MyTEBotMasheryController", }
+2016-12-21 02:55:53.526 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "ExecuteAsync", "Operator": "MyTEBotMasheryController", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:55:53.530 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "", "Operation": "SelectAction", "Operator": "ApiControllerActionSelector", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:55:53.587 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "Selected action 'GetResponse(String enterpriseID, String message)'", "Operation": "SelectAction", "Operator": "ApiControllerActionSelector", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Selected action 'GetResponse(String enterpriseID, String message)'", }
+2016-12-21 02:55:53.611 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Filters", "Level": "Info", "Message": "", "Operation": "OnAuthorizationAsync", "Operator": "BasicAuthenticationFilterAttribute", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:55:53.616 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Filters", "Level": "Info", "Message": "", "Operation": "OnAuthorizationAsync", "Operator": "BasicAuthenticationFilterAttribute", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }
+2016-12-21 02:55:53.620 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "", "Operation": "ExecuteBindingAsync", "Operator": "HttpActionBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:55:53.623 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Binding parameter 'enterpriseID'", "Operation": "ExecuteBindingAsync", "Operator": "ModelBinderParameterBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Binding parameter 'enterpriseID'", }
+2016-12-21 02:55:53.664 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Parameter 'enterpriseID' bound to the value 'xinglong.liang'", "Operation": "ExecuteBindingAsync", "Operator": "ModelBinderParameterBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Parameter 'enterpriseID' bound to the value 'xinglong.liang'", }
+2016-12-21 02:55:53.666 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Binding parameter 'message'", "Operation": "ExecuteBindingAsync", "Operator": "ModelBinderParameterBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Binding parameter 'message'", }
+2016-12-21 02:55:53.666 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Parameter 'message' bound to the value '2'", "Operation": "ExecuteBindingAsync", "Operator": "ModelBinderParameterBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Parameter 'message' bound to the value '2'", }
+2016-12-21 02:55:53.666 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Model state is valid. Values: enterpriseID=xinglong.liang, message=2", "Operation": "ExecuteBindingAsync", "Operator": "HttpActionBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Model state is valid. Values: enterpriseID=xinglong.liang, message=2", }
+2016-12-21 02:55:53.669 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "Action='GetResponse(enterpriseID=xinglong.liang, message=2)'", "Operation": "InvokeActionAsync", "Operator": "ApiControllerActionInvoker", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Action='GetResponse(enterpriseID=xinglong.liang, message=2)'", }
+2016-12-21 02:55:53.673 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "Invoking action 'GetResponse(enterpriseID=xinglong.liang, message=2)'", "Operation": "ExecuteAsync", "Operator": "ReflectedHttpActionDescriptor", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Invoking action 'GetResponse(enterpriseID=xinglong.liang, message=2)'", }
+2016-12-21 02:55:53.688 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "Action returned 'System.Collections.Generic.List`1[System.String]'", "Operation": "ExecuteAsync", "Operator": "ReflectedHttpActionDescriptor", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Action returned 'System.Collections.Generic.List`1[System.String]'", }
+2016-12-21 02:55:53.694 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]", "Operation": "Negotiate", "Operator": "DefaultContentNegotiator", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]", }
+2016-12-21 02:55:53.729 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Obtaining formatter of type 'JsonMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/json; charset=utf-8'", "Operation": "GetPerRequestFormatterInstance", "Operator": "JsonMediaTypeFormatter", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Obtaining formatter of type 'JsonMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/json; charset=utf-8'", }
+2016-12-21 02:55:53.730 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Will use same 'JsonMediaTypeFormatter' formatter", "Operation": "GetPerRequestFormatterInstance", "Operator": "JsonMediaTypeFormatter", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Will use same 'JsonMediaTypeFormatter' formatter", }
+2016-12-21 02:55:53.731 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Selected formatter='JsonMediaTypeFormatter', content-type='application/json; charset=utf-8'", "Operation": "Negotiate", "Operator": "DefaultContentNegotiator", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Selected formatter='JsonMediaTypeFormatter', content-type='application/json; charset=utf-8'", }
+2016-12-21 02:55:53.735 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "", "Operation": "InvokeActionAsync", "Operator": "ApiControllerActionInvoker", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }
+2016-12-21 02:55:53.735 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "ExecuteAsync", "Operator": "MyTEBotMasheryController", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }
+2016-12-21 02:55:53.736 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Request", "Level": "Info", "Message": "Content-type='application/json; charset=utf-8', content-length=unknown", "Operation": "", "Operator": "", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Content-type='application/json; charset=utf-8', content-length=unknown", }
+2016-12-21 02:55:53.753 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Value='System.Collections.Generic.List`1[System.String]', type='IEnumerable`1', content-type='application/json; charset=utf-8'", "Operation": "WriteToStreamAsync", "Operator": "JsonMediaTypeFormatter", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Value='System.Collections.Generic.List`1[System.String]', type='IEnumerable`1', content-type='application/json; charset=utf-8'", }
+2016-12-21 02:55:53.875 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "", "Operation": "WriteToStreamAsync", "Operator": "JsonMediaTypeFormatter", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }
+2016-12-21 02:55:53.892 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "Dispose", "Operator": "MyTEBotMasheryController", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:55:53.892 [thread: 13408] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "Dispose", "Operator": "MyTEBotMasheryController", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }
+2016-12-21 02:56:03.751 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Request", "Level": "Info", "Message": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Operation": "", "Operator": "", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "Route='enterpriseID:xinglong.liang,message:2,controller:MyTEBotMashery,action:GetResponse'", "Operation": "SelectController", "Operator": "DefaultHttpControllerSelector", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Route='enterpriseID:xinglong.liang,message:2,controller:MyTEBotMashery,action:GetResponse'", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "MyTEBotMashery", "Operation": "SelectController", "Operator": "DefaultHttpControllerSelector", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "MyTEBotMashery", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "CreateController", "Operator": "HttpControllerDescriptor", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "Create", "Operator": "DefaultHttpControllerActivator", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "MyTEBot.Service.MyTEBotMasheryController", "Operation": "Create", "Operator": "DefaultHttpControllerActivator", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "MyTEBot.Service.MyTEBotMasheryController", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "MyTEBot.Service.MyTEBotMasheryController", "Operation": "CreateController", "Operator": "HttpControllerDescriptor", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "MyTEBot.Service.MyTEBotMasheryController", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "ExecuteAsync", "Operator": "MyTEBotMasheryController", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "", "Operation": "SelectAction", "Operator": "ApiControllerActionSelector", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "Selected action 'GetResponse(String enterpriseID, String message)'", "Operation": "SelectAction", "Operator": "ApiControllerActionSelector", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Selected action 'GetResponse(String enterpriseID, String message)'", }
+2016-12-21 02:56:03.752 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Filters", "Level": "Info", "Message": "", "Operation": "OnAuthorizationAsync", "Operator": "BasicAuthenticationFilterAttribute", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:56:03.753 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Filters", "Level": "Info", "Message": "", "Operation": "OnAuthorizationAsync", "Operator": "BasicAuthenticationFilterAttribute", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }
+2016-12-21 02:56:03.753 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "", "Operation": "ExecuteBindingAsync", "Operator": "HttpActionBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:56:03.753 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Binding parameter 'enterpriseID'", "Operation": "ExecuteBindingAsync", "Operator": "ModelBinderParameterBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Binding parameter 'enterpriseID'", }
+2016-12-21 02:56:03.753 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Parameter 'enterpriseID' bound to the value 'xinglong.liang'", "Operation": "ExecuteBindingAsync", "Operator": "ModelBinderParameterBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Parameter 'enterpriseID' bound to the value 'xinglong.liang'", }
+2016-12-21 02:56:03.753 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Binding parameter 'message'", "Operation": "ExecuteBindingAsync", "Operator": "ModelBinderParameterBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Binding parameter 'message'", }
+2016-12-21 02:56:03.753 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Parameter 'message' bound to the value '2'", "Operation": "ExecuteBindingAsync", "Operator": "ModelBinderParameterBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Parameter 'message' bound to the value '2'", }
+2016-12-21 02:56:03.753 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.ModelBinding", "Level": "Info", "Message": "Model state is valid. Values: enterpriseID=xinglong.liang, message=2", "Operation": "ExecuteBindingAsync", "Operator": "HttpActionBinding", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Model state is valid. Values: enterpriseID=xinglong.liang, message=2", }
+2016-12-21 02:56:03.753 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "Action='GetResponse(enterpriseID=xinglong.liang, message=2)'", "Operation": "InvokeActionAsync", "Operator": "ApiControllerActionInvoker", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Action='GetResponse(enterpriseID=xinglong.liang, message=2)'", }
+2016-12-21 02:56:03.753 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "Invoking action 'GetResponse(enterpriseID=xinglong.liang, message=2)'", "Operation": "ExecuteAsync", "Operator": "ReflectedHttpActionDescriptor", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Invoking action 'GetResponse(enterpriseID=xinglong.liang, message=2)'", }
+2016-12-21 02:56:03.754 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "Action returned 'System.Collections.Generic.List`1[System.String]'", "Operation": "ExecuteAsync", "Operator": "ReflectedHttpActionDescriptor", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Action returned 'System.Collections.Generic.List`1[System.String]'", }
+2016-12-21 02:56:03.754 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]", "Operation": "Negotiate", "Operator": "DefaultContentNegotiator", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Type='IEnumerable`1', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]", }
+2016-12-21 02:56:03.754 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Obtaining formatter of type 'JsonMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/json; charset=utf-8'", "Operation": "GetPerRequestFormatterInstance", "Operator": "JsonMediaTypeFormatter", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Obtaining formatter of type 'JsonMediaTypeFormatter' for type='IEnumerable`1', mediaType='application/json; charset=utf-8'", }
+2016-12-21 02:56:03.754 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Will use same 'JsonMediaTypeFormatter' formatter", "Operation": "GetPerRequestFormatterInstance", "Operator": "JsonMediaTypeFormatter", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Will use same 'JsonMediaTypeFormatter' formatter", }
+2016-12-21 02:56:03.755 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Selected formatter='JsonMediaTypeFormatter', content-type='application/json; charset=utf-8'", "Operation": "Negotiate", "Operator": "DefaultContentNegotiator", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Selected formatter='JsonMediaTypeFormatter', content-type='application/json; charset=utf-8'", }
+2016-12-21 02:56:03.755 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Action", "Level": "Info", "Message": "", "Operation": "InvokeActionAsync", "Operator": "ApiControllerActionInvoker", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }
+2016-12-21 02:56:03.755 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "ExecuteAsync", "Operator": "MyTEBotMasheryController", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }
+2016-12-21 02:56:03.755 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Request", "Level": "Info", "Message": "Content-type='application/json; charset=utf-8', content-length=unknown", "Operation": "", "Operator": "", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "Content-type='application/json; charset=utf-8', content-length=unknown", }
+2016-12-21 02:56:03.755 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "Value='System.Collections.Generic.List`1[System.String]', type='IEnumerable`1', content-type='application/json; charset=utf-8'", "Operation": "WriteToStreamAsync", "Operator": "JsonMediaTypeFormatter", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "Value='System.Collections.Generic.List`1[System.String]', type='IEnumerable`1', content-type='application/json; charset=utf-8'", }
+2016-12-21 02:56:03.756 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Net.Http.Formatting", "Level": "Info", "Message": "", "Operation": "WriteToStreamAsync", "Operator": "JsonMediaTypeFormatter", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }
+2016-12-21 02:56:03.756 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "Dispose", "Operator": "MyTEBotMasheryController", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "Begin", "Exception": "", }
+2016-12-21 02:56:03.756 [thread: 13276] [log_level:Information] [category:Trace] [priority:-1] message:" " properties: {"Category": "System.Web.Http.Controllers", "Level": "Info", "Message": "", "Operation": "Dispose", "Operator": "MyTEBotMasheryController", "Properties": "System.Collections.Generic.Dictionary`2[System.Object,System.Object]", "Request": "Method: GET, RequestUri: 'http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: text/html
+  Accept: application/xhtml+xml
+  Accept: image/jxr
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: peerdist
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: zh-Hans-CN; q=0.5
+  Accept-Language: zh-Hans; q=0.3
+  Host: localhost
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; WOW64; Trident/7.0; gdn/adcp; rv:11.0)
+  User-Agent: like
+  User-Agent: Gecko
+  X-P2P-PeerDist: Version=1.1
+  X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+}", "Request.Method": "GET", "RequestURI": "http://localhost/MyTERoBoT/MyTEBot/EnterpriseId/xinglong.liang/Messsage/2", "Kind": "End", "Exception": "", }

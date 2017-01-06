@@ -132,6 +132,119 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>C:\Dev\myTE\source\myTEWebCode_Project\MyteWebServices\branches\v7.1\MyTEBot\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;CODE_ANALYSIS;NET45;DEBUG</DefineConstants>
+    <DocumentationFile>D:\MyTE Code\myTEBot\Build\NET45\Debug\MyTEBot.Service.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>D:\MyTE Code\myTEBot\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;CODE_ANALYSIS;NET45</DefineConstants>
+    <DocumentationFile>D:\MyTE Code\myTEBot\Build\NET45\Release\MyTEBot.Service.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>..\..\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Capability|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Capability\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;CODE_ANALYSIS;TRACE;CODE_ANALYSIS;NET45</DefineConstants>
+    <DocumentationFile>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\Build\NET45\Release\GetExpenseTypes.Service.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PT|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\PT\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;CODE_ANALYSIS;TRACE;CODE_ANALYSIS;NET45</DefineConstants>
+    <DocumentationFile>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\Build\NET45\Release\GetExpenseTypes.Service.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UAT|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\UAT\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;CODE_ANALYSIS;TRACE;CODE_ANALYSIS;NET45</DefineConstants>
+    <DocumentationFile>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\Build\NET45\Release\GetExpenseTypes.Service.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Training|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Training\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;CODE_ANALYSIS;TRACE;CODE_ANALYSIS;NET45</DefineConstants>
+    <DocumentationFile>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\Build\NET45\Release\GetExpenseTypes.Service.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PerfTest|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\PerfTest\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;CODE_ANALYSIS;TRACE;CODE_ANALYSIS;NET45</DefineConstants>
+    <DocumentationFile>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\Build\NET45\Release\GetExpenseTypes.Service.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Production|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Production\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;CODE_ANALYSIS;TRACE;CODE_ANALYSIS;NET45</DefineConstants>
+    <DocumentationFile>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\Build\NET45\Release\GetExpenseTypes.Service.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>C:\MyteBang6TPCProd\myTEWebCode_Project\MyteWebServices\Trunk\GetExpenseTypes\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'devinthotfix|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\devinthotfix\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;CODE_ANALYSIS;TRACE;CODE_ANALYSIS;NET45</DefineConstants>
+    <DocumentationFile>C:\Dev\myTE\source\myTEWebCode_Project\MyteWebServices\branches\v7.1\MyTEBot\Build\NET45\Release\MyTEBot.Service.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>C:\Dev\myTE\source\myTEWebCode_Project\MyteWebServices\branches\v7.1\MyTEBot\packages\Rebar.Scorecard.2.0.270888\tools\REBARScorecardMvc.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accenture.CIO.AuthenticationFilters">
       <HintPath>..\..\DLL\Accenture.CIO.AuthenticationFilters.dll</HintPath>
@@ -310,6 +423,7 @@
     <Compile Include="App_Start\REBARHealthCheckInitializer.cs" />
     <Compile Include="App_Start\VersionRouteHandler.cs" />
     <Compile Include="Config\MyTEBotServiceRouteConfig.cs" />
+    <Compile Include="DAL\OLEDBReader.cs" />
     <Compile Include="Entities\Helper.cs" />
     <Compile Include="Entities\MyTEBotResult.cs" />
     <Compile Include="Entities\MyTEBotResultsMapping.cs" />
@@ -340,15 +454,16 @@
       <Link>CustomDictionary.xml</Link>
       <SubType>Designer</SubType>
     </CodeAnalysisDictionary>
+    <Content Include="Data\MyTEBot.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Settings.StyleCop" />
     <None Include="Properties\MyTEBotSetting.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>MyTEBotSetting.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

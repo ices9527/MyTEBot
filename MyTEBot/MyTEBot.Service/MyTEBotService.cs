@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Net;
 using System.Web.Http;
+using MyTEBot.Service.DAL;
 
 namespace MyTEBot.Service
 {
@@ -12,6 +14,15 @@ namespace MyTEBot.Service
     /// </summary>
     public class MyTEBotService
     {
+        private OLEDBReader oleDbReader;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public MyTEBotService()
+        {
+            this.oleDbReader = new OLEDBReader();
+        }
         /// <summary>
         /// 
         /// </summary>
@@ -19,9 +30,12 @@ namespace MyTEBot.Service
         /// <param name="message"></param>
         /// <returns></returns>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1719:ParameterNamesShouldNotMatchMemberNames", MessageId = "1#")]
-        public IEnumerable<string> Search(string enterpriesId, string message)
+        public string Search(string enterpriesId, string message)
         {
-            return new List<string>() {GetAnswer(message)};
+            //if (message.Trim().ToUpper().StartsWith("L"))
+            //{
+                return GetAnswer(message.Trim().ToUpper());               
+            //}
         }
 
         /// <summary>
@@ -31,52 +45,119 @@ namespace MyTEBot.Service
         /// <returns></returns>
         private string GetAnswer(string message)
         {
+            int number = 0;
             var answer = string.Empty;
-            int input = 0;
-            if (int.TryParse(message,out input))
+
+            if (message.Equals("HELP") || message.Equals("L"))
             {
-                if (input < 10)
+                answer = GetRootLevel();
+            }
+            else if (message.StartsWith("L"))
+            {
+                var command = message.Replace("L", string.Empty).Trim();
+                if (command.Length ==1 && int.TryParse(command, out number))
                 {
-                    answer = "The RRD number you entered is in wrong format, RRD number should be R## or r##";
+                    answer = GetLevelOneList(command);
                 }
-                else if (input < 20)
+                else if (command.Length == 3)
                 {
-                    answer = "The RRD ~rrdno~ that you have entered is already marked as Closed in the system, kindly enter an active demand to view the matching supply";
+                    answer = GetLevelTwoAndThreeList(command.Substring(1, 2), 3);
                 }
-                else if (input < 30)
+                else if (command.Length == 4)
                 {
-                    answer = "The RRD ~rrdno~ that you have entered is already marked as deleted in the system, kindly enter an active demand to view the matching supply";
-                }
-                else if (input < 40)
-                {
-                    answer = "The RRD ~rrdno~ that you have entered is currently in dormant state in the system, kindly enter an active demand to view the matching supply";
-                }
-                else if (input < 50)
-                {
-                    answer = "The RRD ~rrdno~ that you have entered is in unapproved state, kindly enter an approved demand to view the matching supply";
-                }
-                else
-                {
-                    answer =
-                        @"      You can input the below mentioned parameters in the AbacusBot chat window to receive the information directly to your mail box.\r\n
-      1 - To receive candidate resumes from the CMS IDC application enter 1 #RRD Number; E.g. 1 R123456 \r\n
-      2 - To receive candidate resumes from the CMS PDC application enter 2 #RRD Number; E.g. 2 R123456 \r\n
-      3 - To receive matching supply list for an IDC Demand enter 3 #RRD Number; E.g. 3 R123456 \r\n
-      4 - To receive matching supply list for a PDC Demand enter 4 #RRD Number; E.g. 4 R123456 \r\n";
+                    answer = GetLevelThreeItem(command.Substring(1,2),command.Substring(3,1),3);
                 }
             }
-            else
+
+            if (answer == string.Empty)
             {
-                answer =
-                   @"      You can input the below mentioned parameters in the AbacusBot chat window to receive the information directly to your mail box.\r\n
-      1 - To receive candidate resumes from the CMS IDC application enter 1 #RRD Number; E.g. 1 R123456 \r\n
-      2 - To receive candidate resumes from the CMS PDC application enter 2 #RRD Number; E.g. 2 R123456 \r\n
-      3 - To receive matching supply list for an IDC Demand enter 3 #RRD Number; E.g. 3 R123456 \r\n
-      4 - To receive matching supply list for a PDC Demand enter 4 #RRD Number; E.g. 4 R123456 \r\n";               
+                answer = GetRootLevel();
             }
 
             return answer;
 
+        }
+        
+        private string GetRootLevel()
+        {
+            var ds = oleDbReader.GetData(@"SELECT [Answer] FROM [MyTEFAQ] WHERE Node = 'root'");
+            return ds.Tables[0].Rows[0][0].ToString();
+        }
+
+        private string GetLevelOneList(string command)
+        {
+            var ds = oleDbReader.GetData(@"SELECT [NodeCd],[Node] FROM [MyTEFAQ] WHERE ParentNode = '" + command + "'");
+            return ConcatItems(ds.Tables[0], "NodeCd", "Node", command);
+        }
+
+        private string GetLevelOneAndTwoItem(string nodeCode, string parentNodeCode, int level)
+        {
+            var ds =
+                oleDbReader.GetData(@"SELECT [Content] FROM [MyTEFAQ] WHERE NodeCd = '" + nodeCode + " AND ParentNode = '" + parentNodeCode + 
+                                "' and Level = " + level );
+            return ds.Tables[0].ToString();
+        }
+
+        private string GetLevelTwoAndThreeList(string parentNode, int level)
+        {
+            var prefix = string.Empty;
+            DataSet ds = null;
+            if (level == 3)
+            {
+                prefix = GetParentCode(parentNode) + parentNode;
+            }
+            ds = oleDbReader.GetData(@"SELECT [NodeCd],[Content] FROM [MyTEFAQ] WHERE ParentNode = '" + parentNode + "' AND Level =" + level + " Order by [NodeCd]");
+            return ConcatItems(ds.Tables[0], "NodeCd", "Content", prefix);
+        }
+
+        private string GetLevelThreeItem(string parentNode, string nodeCode, int level)
+        {
+            var ds = oleDbReader.GetData(@"SELECT [NodeCd],[Content],[Answer] FROM [MyTEFAQ] WHERE ParentNode = '" + parentNode + "' AND NodeCd = '" + nodeCode + 
+                                         "' AND Level = " + level);
+            var questionNumber = GetParentCode(parentNode) + parentNode + nodeCode;
+            return FormatCodeAndQuestion(questionNumber, ds.Tables[0].Rows[0][1].ToString(),
+                ds.Tables[0].Rows[0][2].ToString());
+        }
+
+        private string GetParentCode(string nodeCode)
+        {
+            var ds = oleDbReader.GetData(@"SELECT [ParentNode] FROM [MyTEFAQ] WHERE NodeCd = '" + nodeCode + "'");
+                return ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0
+                    ? ds.Tables[0].Rows[0][0].ToString() : string.Empty;
+        }
+
+        private string FormatCodeAndContent(string parentNode,string code, string content)
+        {
+            return string.Format("<{0}{1}> - {2} \n", parentNode,code, content);
+        }
+
+        private string FormatCodeAndQuestion(string code, string question, string answer)
+        {
+            return string.Format("<{0}> - {1} \n Answer: {2}", code, question, answer);
+        }
+
+        private string ConcatQuestionAndAnswer(DataTable table, string nodeCode, string columnName1, string columnName2)
+        {
+            var concatResult = string.Empty;
+            if (table != null && table.Rows.Count > 0)
+            {
+                var row = table.Rows[0];
+                concatResult = FormatCodeAndQuestion(nodeCode, row[columnName1] == DBNull.Value ? string.Empty : row[columnName1].ToString(),
+                        row[columnName2] == DBNull.Value ? string.Empty : row[columnName2].ToString());
+            }
+            return concatResult;
+        }
+
+        private string ConcatItems(DataTable table, string columnName1, string columnName2, string parentNode)
+        {
+            var concatResult = string.Empty;
+            foreach (DataRow row in table.Rows)
+            {
+                concatResult += FormatCodeAndContent(parentNode,row[columnName1] == DBNull.Value ? string.Empty : row[columnName1].ToString(),
+                    row[columnName2] == DBNull.Value ? string.Empty : row[columnName2].ToString());
+            }
+            concatResult = concatResult.Trim();
+            return concatResult.Length <= 2 ? concatResult : concatResult.Substring(0, concatResult.Length - 2);
         }
     }
   

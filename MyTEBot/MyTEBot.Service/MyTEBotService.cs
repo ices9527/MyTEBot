@@ -156,8 +156,8 @@ namespace MyTEBot.Service
                 concatResult += FormatCodeAndContent(parentNode,row[columnName1] == DBNull.Value ? string.Empty : row[columnName1].ToString(),
                     row[columnName2] == DBNull.Value ? string.Empty : row[columnName2].ToString());
             }
-            concatResult = concatResult.Trim();
-            return concatResult.Length <= 2 ? concatResult : concatResult.Substring(0, concatResult.Length - 2);
+
+            return concatResult.Trim();
         }
     }
   

@@ -78,16 +78,35 @@ namespace MyTEBot.Service
 
         }
         
+        private string TrackQuestion(string command)
+        {
+            var L1NO = command.Substring(0, 1);
+            var Tracker ="You are in : " + GetTrackerItem(L1NO, "0", L1NO);
+            if (command.Length >1)
+            {
+                var L2NO = command.Substring(1, 2);
+                Tracker += "  --> " + GetTrackerItem(L2NO, L1NO, command.Substring(0, 3));
+            }
+            Tracker += "\n\n";
+            return Tracker;
+        }
+        
         private string GetRootLevel()
         {
             var ds = oleDbReader.GetData(@"SELECT [Answer] FROM [MyTEFAQ] WHERE Node = 'root'");
             return ds.Tables[0].Rows[0][0].ToString();
         }
 
+        private string GetTrackerItem(string nodeCode, string parentNode, string command)
+        {
+            var ds = oleDbReader.GetData(@"SELECT [Content] FROM [MyTEFAQ] WHERE ParentNode ='" + parentNode + "' AND NodeCd ='" + nodeCode + "'");
+            return string.Format("<{0}> - {1}", command, ds.Tables[0].Rows[0]["Content"] == DBNull.Value ? string.Empty : ds.Tables[0].Rows[0]["Content"].ToString());
+        }
+
         private string GetLevelOneList(string command)
         {
             var ds = oleDbReader.GetData(@"SELECT [NodeCd],[Node] FROM [MyTEFAQ] WHERE ParentNode = '" + command + "'");
-            return ConcatItems(ds.Tables[0], "NodeCd", "Node", command);
+            return TrackQuestion(command) + ConcatItems(ds.Tables[0], "NodeCd", "Node", command);
         }
 
         private string GetLevelOneAndTwoItem(string nodeCode, string parentNodeCode, int level)
@@ -107,7 +126,7 @@ namespace MyTEBot.Service
                 prefix = GetParentCode(parentNode) + parentNode;
             }
             ds = oleDbReader.GetData(@"SELECT [NodeCd],[Content] FROM [MyTEFAQ] WHERE ParentNode = '" + parentNode + "' AND Level =" + level + " Order by [NodeCd]");
-            return ConcatItems(ds.Tables[0], "NodeCd", "Content", prefix);
+            return TrackQuestion(prefix) + ConcatItems(ds.Tables[0], "NodeCd", "Content", prefix);
         }
 
         private string GetLevelThreeItem(string parentNode, string nodeCode, int level)
@@ -115,7 +134,7 @@ namespace MyTEBot.Service
             var ds = oleDbReader.GetData(@"SELECT [NodeCd],[Content],[Answer] FROM [MyTEFAQ] WHERE ParentNode = '" + parentNode + "' AND NodeCd = '" + nodeCode + 
                                          "' AND Level = " + level);
             var questionNumber = GetParentCode(parentNode) + parentNode + nodeCode;
-            return FormatCodeAndQuestion(questionNumber, ds.Tables[0].Rows[0][1].ToString(),
+            return TrackQuestion(questionNumber) + FormatCodeAndQuestion(questionNumber, ds.Tables[0].Rows[0][1].ToString(),
                 ds.Tables[0].Rows[0][2].ToString());
         }
 
@@ -133,7 +152,7 @@ namespace MyTEBot.Service
 
         private string FormatCodeAndQuestion(string code, string question, string answer)
         {
-            return string.Format("<{0}> - {1} \n Answer: {2}", code, question, answer);
+            return string.Format("<{0}> - {1} \n Answer : {2}", code, question, answer);
         }
 
         private string ConcatQuestionAndAnswer(DataTable table, string nodeCode, string columnName1, string columnName2)
@@ -157,6 +176,7 @@ namespace MyTEBot.Service
                     row[columnName2] == DBNull.Value ? string.Empty : row[columnName2].ToString());
             }
 
+            concatResult += string.Format("\nTotal : {0} Items \nPlease type 'L + number' to start with following category.",table.Rows.Count);
             return concatResult.Trim();
         }
     }

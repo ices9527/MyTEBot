@@ -81,11 +81,11 @@ namespace MyTEBot.Service
         private string TrackQuestion(string command)
         {
             var L1NO = command.Substring(0, 1);
-            var Tracker ="You are in : " + GetTrackerItem(L1NO, "0", L1NO);
+            var Tracker = @"||" + GetTrackerItem(L1NO, "0", L1NO);
             if (command.Length >1)
             {
                 var L2NO = command.Substring(1, 2);
-                Tracker += "  --> " + GetTrackerItem(L2NO, L1NO, command.Substring(0, 3));
+                Tracker += @" |" + GetTrackerItem(L2NO, L1NO, command.Substring(0, 3));
             }
             Tracker += "\n\n";
             return Tracker;
@@ -100,13 +100,13 @@ namespace MyTEBot.Service
         private string GetTrackerItem(string nodeCode, string parentNode, string command)
         {
             var ds = oleDbReader.GetData(@"SELECT [Content] FROM [MyTEFAQ] WHERE ParentNode ='" + parentNode + "' AND NodeCd ='" + nodeCode + "'");
-            return string.Format("<{0}> - {1}", command, ds.Tables[0].Rows[0]["Content"] == DBNull.Value ? string.Empty : ds.Tables[0].Rows[0]["Content"].ToString());
+            return string.Format("<{0}> {1}", command, ds.Tables[0].Rows[0]["Content"] == DBNull.Value ? string.Empty : ds.Tables[0].Rows[0]["Content"].ToString());
         }
 
         private string GetLevelOneList(string command)
         {
             var ds = oleDbReader.GetData(@"SELECT [NodeCd],[Node] FROM [MyTEFAQ] WHERE ParentNode = '" + command + "'");
-            return TrackQuestion(command) + ConcatItems(ds.Tables[0], "NodeCd", "Node", command);
+            return TrackQuestion(command) + ConcatItems(ds.Tables[0], "NodeCd", "Node", command,"C");
         }
 
         private string GetLevelOneAndTwoItem(string nodeCode, string parentNodeCode, int level)
@@ -126,7 +126,7 @@ namespace MyTEBot.Service
                 prefix = GetParentCode(parentNode) + parentNode;
             }
             ds = oleDbReader.GetData(@"SELECT [NodeCd],[Content] FROM [MyTEFAQ] WHERE ParentNode = '" + parentNode + "' AND Level =" + level + " Order by [NodeCd]");
-            return TrackQuestion(prefix) + ConcatItems(ds.Tables[0], "NodeCd", "Content", prefix);
+            return TrackQuestion(prefix) + ConcatItems(ds.Tables[0], "NodeCd", "Content", prefix,"Q");
         }
 
         private string GetLevelThreeItem(string parentNode, string nodeCode, int level)
@@ -145,14 +145,19 @@ namespace MyTEBot.Service
                     ? ds.Tables[0].Rows[0][0].ToString() : string.Empty;
         }
 
-        private string FormatCodeAndContent(string parentNode,string code, string content)
+        private string FormatCodeAndContentForCategory(string parentNode,string code, string content)
         {
-            return string.Format("<{0}{1}> - {2} \n", parentNode,code, content);
+            return string.Format("<{0}{1}>(C) {2} \n", parentNode,code, content);
+        }
+
+        private string FormatCodeAndContentForQuestion(string parentNode, string code, string content)
+        {
+            return string.Format("<{0}{1}>(Q) {2} \n", parentNode, code, content);
         }
 
         private string FormatCodeAndQuestion(string code, string question, string answer)
         {
-            return string.Format("<{0}> - {1} \n Answer : {2}", code, question, answer);
+            return string.Format("<{0}>(Q) {1} \n (A): {2}", code, question, answer);
         }
 
         private string ConcatQuestionAndAnswer(DataTable table, string nodeCode, string columnName1, string columnName2)
@@ -167,16 +172,28 @@ namespace MyTEBot.Service
             return concatResult;
         }
 
-        private string ConcatItems(DataTable table, string columnName1, string columnName2, string parentNode)
+        private string ConcatItems(DataTable table, string columnName1, string columnName2, string parentNode, string level)
         {
             var concatResult = string.Empty;
-            foreach (DataRow row in table.Rows)
-            {
-                concatResult += FormatCodeAndContent(parentNode,row[columnName1] == DBNull.Value ? string.Empty : row[columnName1].ToString(),
-                    row[columnName2] == DBNull.Value ? string.Empty : row[columnName2].ToString());
-            }
 
-            concatResult += string.Format("\nTotal : {0} Items \nPlease type 'L + number' to start with following category.",table.Rows.Count);
+            if (level.Equals("C"))
+            {
+                foreach (DataRow row in table.Rows)
+                {
+                    concatResult += FormatCodeAndContentForCategory(parentNode, row[columnName1] == DBNull.Value ? string.Empty : row[columnName1].ToString(),
+                        row[columnName2] == DBNull.Value ? string.Empty : row[columnName2].ToString());
+                }
+                concatResult += string.Format("\n{0} categories \nPlease type 'L + number' to start with following category.", table.Rows.Count); 
+            }
+            else
+            {
+                foreach (DataRow row in table.Rows)
+                {
+                    concatResult += FormatCodeAndContentForQuestion(parentNode, row[columnName1] == DBNull.Value ? string.Empty : row[columnName1].ToString(),
+                        row[columnName2] == DBNull.Value ? string.Empty : row[columnName2].ToString());
+                }
+                concatResult += string.Format("\n{0} questions \nPlease type 'L + number' to start with following category.", table.Rows.Count);
+            }
             return concatResult.Trim();
         }
     }
